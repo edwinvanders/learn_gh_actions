@@ -3,10 +3,10 @@ name: Generate Mermaid Diagrams
 on:
   push:
     branches:
-      - main # Or any branch where you want this to run
+      - test # Or any branch where you want this to run
   pull_request:
     branches:
-      - main
+      - test
 
 jobs:
   build:
